@@ -45,7 +45,7 @@
 <script>
 export default {
   data: function () {
-    return { noOfItem: 40, currentPage: 1, noPerPage: 20, cartItems:0 };
+    return { noOfItem: 40, currentPage: 1, noPerPage: 20, cartItems: 0 };
   },
   computed: {
     noOfPages: function () {
@@ -63,10 +63,12 @@ export default {
     subPage() {
       return (this.currentPage -= 1);
     },
-    addToCart(){
-      this.addToCart +=1;
-
-    }
+    addToCart() {
+      console.log('here '+ this.cartItems);
+      this.cartItems += 1;
+      this.$emit("cartitem", this.cartItems);
+      
+    },
   },
 };
 </script>
