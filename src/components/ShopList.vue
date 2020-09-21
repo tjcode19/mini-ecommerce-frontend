@@ -2,7 +2,7 @@
   <div class="container mt-3 mb-4">
     <div class="row">
       <div class="col-lg-2 col-md-3 col-sm-2 p-1" v-for="item in noPerPage" :key="item">
-        <div class="inner-card p-1">
+        <div class="inner-card p-1" @click="addToCart()">
           <div class="box text-center">
             <img
               src="../assets/apple.jpg"
@@ -45,7 +45,7 @@
 <script>
 export default {
   data: function () {
-    return { noOfItem: 40, currentPage: 1, noPerPage: 20 };
+    return { noOfItem: 40, currentPage: 1, noPerPage: 20, cartItems:0 };
   },
   computed: {
     noOfPages: function () {
@@ -63,6 +63,10 @@ export default {
     subPage() {
       return (this.currentPage -= 1);
     },
+    addToCart(){
+      this.addToCart +=1;
+
+    }
   },
 };
 </script>

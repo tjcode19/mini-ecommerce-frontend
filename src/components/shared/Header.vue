@@ -34,7 +34,7 @@
           <div class="navbar-nav ml-auto">
             <a href="#" class="nav-item nav-link">Register</a>
             <a href="#" class="nav-item nav-link">Login</a>
-            <a href="#" class="nav-item nav-link">Cart</a>
+            <a href="#" class="nav-item nav-link">Cart<span class="badge badge-light">24</span></a>
           </div>
         </div>
       </div>
