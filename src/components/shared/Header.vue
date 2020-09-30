@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
     <!-- <div class="row p-3 text-white" style="background-color: rgb(236, 194, 110);">
       <div class="col-md-9">
         <h1>Mini eCommerce App</h1>
@@ -11,11 +11,10 @@
       </div>
     </div>-->
     <nav
-      class="navbar navbar-expand-md navbar-dark mb-3"
-      style="background-color: rgb(236, 194, 110);"
+      class="navbar navbar-expand-md navbar-dark primary-bg"
     >
       <div class="container-fluid">
-        <a href="#" class="navbar-brand mr-3">Mini eCommerce App</a>
+        <a href="#" class="navbar-brand mr-3" >Mini eCommerce App</a>
         <button
           type="button"
           class="navbar-toggler"
@@ -39,10 +38,16 @@
         </div>
       </div>
     </nav>
-  </div>
+  </header>
 </template>
 <script>
 export default {
   props: ['items']
 }
 </script>
+
+<style scoped>
+header {
+  height: 60px;
+}
+</style>
