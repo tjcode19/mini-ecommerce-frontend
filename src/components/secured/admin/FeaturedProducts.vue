@@ -2,7 +2,7 @@
 <div class="row" style="margin-top:3em; background-color:#f1f1f1;border-radius:6px; padding:15px">
     <div class="col">
 
-        <h6 class="ml-1 primary-text-color">Featured Product</h6>
+        <h6 class="ml-1 primary-text-color">Featured Products</h6>
         <div class="row">
             <div class="col-xl-6 px-4 ">
                 <div class=" product-wrapper py-3 row">

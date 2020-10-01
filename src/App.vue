@@ -1,6 +1,6 @@
 <template>
 <div class=" min-vh-100 justify-center primary-bg">
-    <app-header :items="shopItems"></app-header>
+    <app-header :items="shopItems" :isLogin="isLogin"></app-header>
     <!-- <app-market-place></app-market-place> -->
 
     <app-seller-dashboard></app-seller-dashboard>

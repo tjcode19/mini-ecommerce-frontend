@@ -15,14 +15,7 @@
                 <h5 class="primary-text-color">Dashboard <span>(Seller)</span></h5>
             </div>
             <div class="row">
-                <div class="col card orange">
-                    <div class="col-12"><i class="fas fa-users"></i></div>
 
-                    <div class=" d-flex justify-content-between mt-2 ">
-                        <span>Total Users</span>
-                        <span>17</span>
-                    </div>
-                </div>
                 <div class="col card blue">
                     <div class="col-12"><i class="fas fa-pizza-slice"></i></div>
 
@@ -31,14 +24,7 @@
                         <span>17</span>
                     </div>
                 </div>
-                <div class="col card blue-deep">
-                    <div class="col-12"><i class="fas fa-user-friends"></i></div>
 
-                    <div class=" d-flex justify-content-between mt-2 ">
-                        <span>Total Sellers</span>
-                        <span>17</span>
-                    </div>
-                </div>
                 <div class="col card orange-deep">
                     <div class="col-12"><i class="fas fa-money-check"></i></div>
 
